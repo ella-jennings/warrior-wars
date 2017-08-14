@@ -1,6 +1,17 @@
-﻿namespace Warrior_wars
+﻿using System.Dynamic;
+
+namespace Warrior_wars
 {
-    internal class Armor
+    class Armor
     {
+        private int armorPoints;
+
+        public int ArmorPoints
+        {
+            get
+            {
+                return armorPoints;
+            }
+        }
     }
 }

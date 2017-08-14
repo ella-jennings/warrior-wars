@@ -1,4 +1,6 @@
 ﻿using System;
+using Warrior_wars.Enum;
+using Warrior_wars.Equipment;
 
 
 namespace Warrior_wars
@@ -10,9 +12,17 @@ namespace Warrior_wars
 
         private Faction faction;
 
-        private int _health;
-        private string _name;
-        private bool _isAlive;
+        private int health;
+        private string name;
+        private bool isAlive;
+
+        public bool IsAlive
+        {
+            get
+            {
+                return isAlive;
+            }
+        }
 
         private Weapon weapon;
         private Armor armor;
